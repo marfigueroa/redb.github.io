@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style-plantilla.css">
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+    <div class="container0">
+        <header>
+            <img src="img/logo RB PNG.png" alt="Logo Red Bull">
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="F1.html">F1</a>
+                <a href="historia.html">Historia</a>
+                <a href="Tabla_posiciones.html">Pilotos</a>
+                <a href="Vehículo.html">Vehículos</a>
+                <a href="contactos.html" class="active">Contactos</a>
+            </nav>
+        </header>
+
+        <!-- Contacto -->
+        <section class="contact-section">
+            <h2>Contáctanos</h2>
+            <p>¡Estamos aquí para responder tus dudas y comentarios! Completa el formulario o utiliza nuestras redes sociales para comunicarte con nosotros.</p>
+            
+            <div class="contact-container">
+                <!-- Formulario de contacto -->
+                <form class="contact-form" action="submit_contact.php" method="POST">
+                    <input type="text" name="nombre" placeholder="Tu Nombre" required>
+                    <input type="email" name="email" placeholder="Tu Correo Electrónico" required>
+                    <textarea name="mensaje" rows="5" placeholder="Tu Mensaje" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+
+                <!-- Información de contacto -->
+                <div class="contact-info">
+                    <h3>Nuestra Oficina</h3>
+                    <p>Red Bull Racing<br>Milton Keynes, Reino Unido</p>
+                    <p><strong>Teléfono:</strong> +44 123 456 789</p>
+                    <p><strong>Email:</strong> support@redbullracing.com</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Redes Sociales -->
+
+        <footer>
+            <center>
+                <img src="img/ORACLE.png" height="30" alt="Oracle Logo">
+                <p>Patrocinador oficial</p>
+            </center>
+    
+            <hr style="border: none; border-top: 1px solid #ccc; width: 80%;">
+    
+            <h2 style="text-align: center;">SIGUENOS:</h2>
+    
+            <div>
+                <nav style="background-color: #1e1e1e; text-align: center;">
+                    <a href="https://www.facebook.com/redbullracing" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" style="height: 24px; margin-right: 8px;" alt="Facebook Logo">Facebook
+                    </a>
+                    <a href="https://www.instagram.com/redbullracing/" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" style="height: 24px; margin-right: 8px;" alt="Instagram Logo">Instagram
+                    </a>
+                    <a href="https://x.com/redbullracing?lang=es" target="_blank">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI-h-e2hgz8mwGfCt4gvj4IgMG_wAUolVM6w&s" style="height: 24px; margin-right: 8px;" alt="Twitter Logo">Twitter
+                    </a>
+                    <a href="https://www.tiktok.com/@redbullracing?lang=es" target="_blank">
+                        <img src="https://cdn.pixabay.com/photo/2021/06/15/12/28/tiktok-6338429_960_720.png" style="height: 24px; margin-right: 8px;" alt="TikTok Logo">TikTok
+                    </a>
+                    <a href="https://www.youtube.com/user/redbull" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" style="height: 24px; margin-right: 8px;" alt="YouTube Logo">YouTube
+                    </a>
+                </nav>
+            </div>
+    
+            <hr style="border: none; border-top: 1px solid #ccc; width: 80%;">
+    
+            <nav style="background-color: #1e1e1e; text-align: center;">
+                <a href="Tabla_posiciones.html">Posiciones</a>
+                <a href="Calendario.html">Calendario</a>
+            </nav>
+    
+            <p style="text-align: center;">&copy; 2024 Red Bull Racing. Todos los derechos reservados</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>

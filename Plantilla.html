@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <title>Plantilla</title>
+    <link rel="stylesheet" type="text/css" href="css/style-plantilla.css">
+</head>
+    
+<body>
+    
+    <div class="container0">
+        <header>
+            <img src="img/logo RB PNG.png" alt="60">
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="F1.html">F1</a>
+                <a href="historia.html">Historia</a>
+                <a href="Tabla_posiciones.html">Pilotos</a>
+                <a href="Vehículo.html">Vehiculos</a>
+                <a href="Calendario.html">Calendario</a>
+                <a href="contactanos.html">Contactanos</a>
+            </nav>
+        </header>
+
+        <main>
+            <div>
+                <br>
+                <h1>
+                    <center>
+                        NUESTRO EQUIPO
+                    </center>
+                </h1>
+            </div>
+            <div class="container">
+                <div class="slider">
+                    <div class="slides" style="background-image: url(https://cdn-9.motorsport.com/images/mgl/6D1XbeV0/s8/max-verstappen-red-bull-racing.jpg);">
+                        <div class="content">
+                            <h2>Max Verstappen</h2>
+                            <font color="#162B4E">Dos terceros puestos en 2019 y 2020, y tricampeón del Campeonato Mundial de Fórmula 1 con los títulos obtenidos en 2021, 2022 y 2023.</font>
+                        </div>
+                    </div>
+                    <div class="slides" style="background-image: url(https://cdn-7.motorsport.com/images/mgl/2y3qRdo6/s8/sergio-perez-red-bull-racing.jpg);">
+                        <div class="content">
+                            <h2>Sergio Pérez</h2>
+                            <font color="#162B4E">Cuarto en 2020 (con Racing Point) y 2021, tercero en 2022 Y subcampeón en 2023 del Campeonato Mundial de Fórmula 1. </font>
+                        </div>
+                    </div>
+                    <div class="slides" style="background-image: url(https://cdn-9.motorsport.com/images/amp/6zQpdEJY/s1000/adrian-newey-chief-technology-.jpg);">
+                        <div class="content">
+                            <h2>Red Bull Racing</h2>
+                            <p>Cuenta con siete Mundiales de Pilotos: cuatro de Sebastian Vettel, tres de Max Verstappen; y seis Mundiales de Constructores.</p>
+                        </div>
+                    </div>
+                    <div class="slides" style="background-image: url(https://cdn-9.motorsport.com/images/mgl/6D1XbeV0/s8/max-verstappen-red-bull-racing.jpg);">
+                        <div class="content">
+                            <h2>Max Verstappen</h2>
+                            <font color="#162B4E">Dos terceros puestos en 2019 y 2020, y tricampeón del Campeonato Mundial de Fórmula 1 con los títulos obtenidos en 2021, 2022 y 2023.</font>
+                        </div>
+                    </div>
+                    <div class="slides" style="background-image: url(https://cdn-7.motorsport.com/images/mgl/2y3qRdo6/s8/sergio-perez-red-bull-racing.jpg);">
+                        <div class="content">
+                            <h2>Sergio Pérez</h2>
+                            <font color="#162B4E">Cuarto en 2020 (con Racing Point) y 2021, tercero en 2022 Y subcampeón en 2023 del Campeonato Mundial de Fórmula 1. </font>
+                        </div>
+                    </div>
+                    <div class="slides" style="background-image: url(https://cdn-9.motorsport.com/images/amp/6zQpdEJY/s1000/adrian-newey-chief-technology-.jpg);">
+                        <div class="content">
+                            <h2>Red Bull Racing</h2>
+                            <p>Cuenta con siete Mundiales de Pilotos: cuatro de Sebastian Vettel, tres de Max Verstappen; y seis Mundiales de Constructores.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <span class="prev"></span>
+                    <span class="next"></span>
+                </div>
+
+                <script>
+                    let next = document.querySelector('.next');
+                    let prev = document.querySelector('.prev');
+                    let slider = document.querySelector('.slider');
+        
+                    next.addEventListener('click', function(){
+                    let slides = document.querySelectorAll('.slides');
+                    slider.appendChild(slides[0]);
+                    })
+                    prev.addEventListener('click', function(){
+                    let slides = document.querySelectorAll('.slides');
+                    slider.prepend(slides[slides.length - 1]);
+                    })
+                </script>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <center>
+        <img src="img/ORACLE.png" height="30">
+        <p>Patrocinador oficial</p>
+        </center>
+    
+        <p style="text-align: center;">--------------------------------------------------------------------</p>
+    
+        <br>
+    
+        <h2 style="text-align: center;">SIGUENOS:</h2>
+            
+        <div>
+        <nav style="background-color: #1e1e1e;">
+            <a href="https://www.facebook.com/redbullracing" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" style="height: 24px; margin-right: 8px;" alt="Facebook Logo">Facebook</a>
+            <a href="https://www.instagram.com/redbullracing/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" style="height: 24px; margin-right: 8px;" alt="Instagram Logo">Instagram</a>
+            <a href="https://x.com/redbullracing?lang=es" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI-h-e2hgz8mwGfCt4gvj4IgMG_wAUolVM6w&s" style="height: 24px; margin-right: 8px;" alt="Twiter logo">Twitter</a>
+            <a href="https://www.tiktok.com/@redbullracing?lang=es" target="_blank"><img src="https://cdn.pixabay.com/photo/2021/06/15/12/28/tiktok-6338429_960_720.png" style="height: 24px; margin-right: 8px;" alt="Tik Tok logo">TikTok</a>
+            <a href="https://www.youtube.com/user/redbull" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" style="height: 24px; margin-right: 8px;" alt="YouTube Logo">YouTube</a>    
+
+        </nav>
+        </div>
+
+        <p style="text-align: center;">--------------------------------------------------------------------</p>
+
+        <nav style="background-color: #1e1e1e;">
+            <a href="Tabla_posiciones.html">Posiciones</a>
+            <a href="Calendario.html">Calendario</a>
+        </nav>
+
+        <br>
+
+        <p style="text-align: center;">&copy; 2024 Red Bull Racing. Todos los derechos reservados</p>
+    </footer>
+    
+</body>
+
+</html>

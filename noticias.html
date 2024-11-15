@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias</title>
+    <link rel="stylesheet" href="css/styles.css"/>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #162B4E; /* Color de fondo */
+            color: white; /* Color de texto general */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ffffff; /* Fondo oscuro para el encabezado */
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        .news-item {
+            background-color: #333; /* Fondo oscuro para las noticias */
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .news-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .news-item h2 {
+            color: #f4f4f4; /* Color claro para los títulos */
+            font-size: 24px;
+            margin-top: 15px;
+        }
+
+        .news-item p {
+            color: #ccc; /* Color más claro para los párrafos */
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .news-item a {
+            color: #0056b3;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .news-item a:hover {
+            text-decoration: underline;
+        }
+
+        .contenedor {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #162B4E; /* Fondo del contenedor */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: red; /* Color de los encabezados principales */
+        }
+
+        .creador {
+            margin-bottom: 20px;
+        }
+
+        .creador h2 {
+            margin-bottom: 5px;
+            color: yellow; /* Color de los subtemas */
+        }
+
+        .creador p {
+            color: white; /* Color de los párrafos */
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="img/logo RB PNG.png" alt="60">
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="F1.html">F1</a>
+        <a href="historia.html">Historia</a>
+        <a href="Tabla_posiciones.html">Pilotos</a>
+        <a href="Vehículo.html">Vehiculos</a>
+        <a href="Calendario.html">Calendario</a>
+        <a href="contactanos.html">Contactanos</a>
+    </nav>
+
+    <div class="container">
+        <!-- Noticia 1 -->
+        <div class="news-item">
+            <img src="https://colimdo.org/wp-content/uploads/2023/09/CAMPEON-1.jpg" alt="Max Verstappen gana el Gran Premio de Japón">
+            <h2>Max Verstappen gana el Gran Premio de Japón</h2>
+            <p>Max Verstappen ha conseguido una victoria dominante en el Gran Premio de Japón, extendiendo su dominio en la temporada 2024. A pesar de los esfuerzos de sus competidores, Verstappen mostró su habilidad y control, asegurando una nueva victoria para Red Bull.</p>
+            <a href="https://www.motorsport.com/f1/news/max-verstappen-japan-2024/123456789" target="_blank"> </a>
+        </div>
+
+        <!-- Noticia 2 -->
+        <div class="news-item">
+            <img src="https://p.cdnc.superbemagazine.com/article/1/9/9/thumb/large/image-mqQlGviE8s4XwcKCLS8pphCE7JFPpwghJd5AjrVE.jpg" alt="El regreso de Ferrari a la cima">
+            <h2>El regreso de Ferrari a la cima</h2>
+            <p>Después de años de dificultades, Ferrari ha logrado regresar a la cima con una impresionante actuación en el Gran Premio de Italia. Charles Leclerc y Carlos Sainz se mostraron muy competitivos, lo que les permitió pelear por el podio en Monza.</p>
+            <a href="https://www.formula1.com/en/latest/headlines/2024/09/12/ferrari-resurgence" target="_blank"> </a>
+        </div>
+
+        <!-- Noticia 3 -->
+        <div class="news-item">
+            <img src="https://fotografias.lasexta.com/clipping/cmsimages01/2024/07/05/5BA6D240-18A3-47F0-AA0F-7936B5D8BAB2/sergio-perez-piloto-red-bull_69.jpg?crop=1200,675,x0,y0&width=1280&height=720&optimize=low&format=jpg" alt="Sergio Pérez podría dejar Red Bull">
+            <h2>Sergio Pérez podría dejar Red Bull</h2>
+            <p>Con el rendimiento inconsistente de Sergio Pérez durante la temporada, han surgido rumores sobre su posible salida de Red Bull. Aunque todavía tiene el apoyo del equipo, la presión para mantenerse competitivo sigue siendo alta.</p>
+            <a href="https://www.motorsport.com/f1/news/sergio-perez-red-bull-exit-rumors/123456788" target="_blank"> </a>
+        </div>
+
+        <!-- Noticia 4 -->
+        <div class="news-item">
+            <img src="https://sportsbase.io/images/gpfans/copy_1200x800/9ca0be4eb305ab8c9ff30848eb4ef8d95213b9c5.png" alt="Leclerc y Sainz lideran la clasificación en el GP de Italia">
+            <h2>Leclerc y Sainz lideran la clasificación en el GP de Italia</h2>
+            <p>Charles Leclerc y Carlos Sainz dieron un espectáculo en la clasificación para el Gran Premio de Italia, mostrando que Ferrari sigue siendo un contendiente fuerte en la temporada 2024. Ambos pilotos lograron posiciones destacadas en la parrilla de salida.</p>
+            <a href="https://www.gpfans.com/fi/news/2024/09/13/leclerc-sainz-italy-qualifying" target="_blank"></a>
+        </div>
+
+        <!-- Noticia 5 -->
+        <div class="news-item">
+            <img src="https://e00-us-marca.uecdn.es/assets/multimedia/imagenes/2024/11/03/17306545880291.jpg" alt="Accidente en el Gran Premio de Brasil">
+            <h2>Accidente en el Gran Premio de Brasil</h2>
+            <p>El piloto Franco Colapinto estuvo involucrado en un fuerte accidente durante el Gran Premio de Brasil, lo que ha generado un renovado debate sobre la seguridad en la Fórmula 1 y la implementación de nuevas medidas para proteger a los pilotos.</p>
+            <a href="https://www.motorsport.com/f1/news/accidente-gran-premio-brasil-2024" target="_blank"></a>
+        </div>
+    </div>
+
+    <footer>
+        <center>
+            <img src="img/ORACLE.png" height="30" alt="Oracle Logo">
+            <p>Patrocinador oficial</p>
+        </center>
+
+        <hr style="border: none; border-top: 1px solid #ccc; width: 80%;">
+
+        <h2 style="text-align: center;">SIGUENOS:</h2>
+
+        <div>
+            <nav style="background-color: #1e1e1e; text-align: center;">
+                <a href="https://www.facebook.com/redbullracing" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" style="height: 24px; margin-right: 8px;" alt="Facebook Logo">Facebook
+                </a>
+                <a href="https://www.instagram.com/redbullracing/" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" style="height: 24px; margin-right: 8px;" alt="Instagram Logo">Instagram
+                </a>
+                <a href="https://x.com/redbullracing?lang=es" target="_blank">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI-h-e2hgz8mwGfCt4gvj4IgMG_wAUolVM6w&s" style="height: 24px; margin-right: 8px;" alt="Twitter Logo">Twitter
+                </a>
+                <a href="https://www.tiktok.com/@redbullracing?lang=es" target="_blank">
+                    <img src="https://cdn.pixabay.com/photo/2021/06/15/12/28/tiktok-6338429_960_720.png" style="height: 24px; margin-right: 8px;" alt="TikTok Logo">TikTok
+                </a>
+                <a href="https://www.youtube.com/user/redbull" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" style="height: 24px; margin-right: 8px;" alt="YouTube Logo">YouTube
+                </a>
+            </nav>
+        </div>
+
+        <hr style="border: none; border-top: 1px solid #ccc; width: 80%;">
+
+        <nav style="background-color: #1e1e1e; text-align: center;">
+            <a href="Tabla_posiciones.html">Posiciones</a>
+            <a href="Calendario.html">Calendario</a>
+        </nav>
+
+        <p style="text-align: center;">&copy; 2024 Red Bull Racing. Todos los derechos reservados</p>
+    </footer>
+
+</body>
+
+</html>
